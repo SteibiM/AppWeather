@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App Weather</string>
+    <string name="put_a_name_of_the_city">Put a name of the city...</string>
+    <string name="weather_application">Weather application</string>
+    <string name="weather">Weather?</string>
+    <string name="waiting_for_info">Waiting for info...</string>
+</resources>

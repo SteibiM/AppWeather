@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/d41fc116f371abe852886b4928c6436d"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#510091EA"
+        android:gravity="center_horizontal"
+        android:text="@string/weather_application"
+        android:textColor="#DDD1D1"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/put_a_name_of_the_city"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#00B8D4"
+        android:textColorHint="#D6BEBE"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextPersonName"
+        android:background="#D2FFFFFF"
+        android:onClick="onWeather"
+        android:text="@string/weather"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="443dp"
+        android:layout_height="685dp"
+        android:layout_below="@id/buttonWeather"
+        android:layout_marginTop="29dp"
+        android:background="#65EDE4E4"
+        android:padding="20dp"
+        android:text="@string/waiting_for_info"
+        android:textAllCaps="false"
+        android:textColor="#232525"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>
